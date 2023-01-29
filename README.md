@@ -87,7 +87,8 @@ false
 -10
 ```
 
-```benchmark
+## benchmark
+```
 fibonacci 35
 BenchmarkInterpreter
 BenchmarkInterpreter-12    	       1	61665154927 ns/op
