@@ -87,4 +87,22 @@ false
 -10
 ```
 
+```benchmark
+fibonacci 35
+BenchmarkInterpreter
+BenchmarkInterpreter-12    	       1	61665154927 ns/op
+BenchmarkCompiler
+BenchmarkCompiler-12       	       1	12110596378 ns/op
 
+fibonacci 20
+BenchmarkInterpreter
+BenchmarkInterpreter-12    	      25	  43752838 ns/op
+BenchmarkCompiler
+BenchmarkCompiler-12       	     134	   9115634 ns/op
+
+fibonacci 15
+BenchmarkInterpreter
+BenchmarkInterpreter-12    	     272	   3955469 ns/op
+BenchmarkCompiler
+BenchmarkCompiler-12       	    1203	    993288 ns/op
+```
